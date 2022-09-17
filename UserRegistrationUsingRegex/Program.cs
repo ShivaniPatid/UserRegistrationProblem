@@ -20,9 +20,9 @@ namespace UserRegistrationUsingRegex
                 case 1:
                     UCOnePattern.ValidateFirstName();
                     break;
-               /* case 2:
+                case 2:
                     UCTwoPattern.ValidateLastName();
-                    break;*/
+                    break;
                 default:
                     Console.WriteLine("Choose a appropriate option");
                     break;
