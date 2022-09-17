@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{668F857F-C791-4254-9BC6-CE01C753012E}</ProjectGuid>
+    <ProjectGuid>{F7280037-F674-430C-9FFF-3DF29B037320}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>UserRegistrationUsingRegex</RootNamespace>
     <AssemblyName>UserRegistrationUsingRegex</AssemblyName>
