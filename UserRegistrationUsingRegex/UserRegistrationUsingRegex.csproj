@@ -48,6 +48,7 @@
     <Compile Include="UCEightPattern.cs" />
     <Compile Include="UCFivePattern.cs" />
     <Compile Include="UCFourPattern.cs" />
+    <Compile Include="UCNinePattern.cs" />
     <Compile Include="UCOnePattern.cs" />
     <Compile Include="UCSevenPattern.cs" />
     <Compile Include="UCSixPattern.cs" />

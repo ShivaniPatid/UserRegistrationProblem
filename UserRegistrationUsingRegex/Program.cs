@@ -19,6 +19,7 @@ namespace UserRegistrationUsingRegex
             Console.WriteLine("6. UC6 - Validate password Rule2 - Password should have at least 1 upper character");
             Console.WriteLine("7. UC7 - Validate password Rule3 - Password should have at least 1 numeric number");
             Console.WriteLine("8. UC8 - Validate password Rule4 - Password should have at least 1 special character");
+            Console.WriteLine("9. UC9 - email samples provided separately");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -54,6 +55,9 @@ namespace UserRegistrationUsingRegex
                     Console.WriteLine("Enter a password : ");
                     string input4 = Console.ReadLine();
                     UCEightPattern.ValidatePassword(input4);
+                    break;
+                case 9:
+                    UCNinePattern.ValidateEmail();
                     break;
                 default:
                     Console.WriteLine("Choose a appropriate option");
