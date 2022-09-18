@@ -12,7 +12,8 @@ namespace UserRegistrationUsingRegex
         {
             Console.WriteLine("Chosee a oprtion");
             Console.WriteLine("1. UC1 - Valid First Name");
-            Console.WriteLine("2. UC1 - Valid Last Name");
+            Console.WriteLine("2. UC2 - Valid Last Name");
+            Console.WriteLine("3. UC3 - Valid Email Address");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -22,6 +23,9 @@ namespace UserRegistrationUsingRegex
                     break;
                 case 2:
                     UCTwoPattern.ValidateLastName();
+                    break;
+                case 3:
+                    UCThreePattern.ValidarEmail();
                     break;
                 default:
                     Console.WriteLine("Choose a appropriate option");
