@@ -15,6 +15,10 @@ namespace UserRegistrationUsingRegex
             Console.WriteLine("2. UC2 - Validate Last Name");
             Console.WriteLine("3. UC3 - Validate Email Address");
             Console.WriteLine("4. UC4 - Validate Mobile Number");
+            Console.WriteLine("5. UC5 - Validate password Rule1 - Password should have minimum 8 characters");
+            Console.WriteLine("6. UC6 - Validate password Rule2 - Password should have at least 1 upper character");
+            Console.WriteLine("7. UC7 - Validate password Rule3 - Password should have at least 1 numeric number");
+            Console.WriteLine("8. UC8 - Validate password Rule4 - Password should have at least 1 special character");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -30,6 +34,26 @@ namespace UserRegistrationUsingRegex
                     break;
                 case 4:
                     UCFourPattern.ValidateMobileNumber();
+                    break;
+                case 5:
+                    Console.WriteLine("Enter a password : ");
+                    string input1 = Console.ReadLine();
+                    UCFivePattern.validatePassword(input1);
+                    break;
+                case 6:
+                    Console.WriteLine("Enter a password : ");
+                    string input2 = Console.ReadLine();
+                    UCSixPattern.ValidatePassword(input2);
+                    break;
+                case 7:
+                    Console.WriteLine("Enter a password : ");
+                    string input3 = Console.ReadLine();
+                    UCSevenPattern.ValidatePassword(input3);
+                    break;
+                case 8:
+                    Console.WriteLine("Enter a password : ");
+                    string input4 = Console.ReadLine();
+                    UCEightPattern.ValidatePassword(input4);
                     break;
                 default:
                     Console.WriteLine("Choose a appropriate option");

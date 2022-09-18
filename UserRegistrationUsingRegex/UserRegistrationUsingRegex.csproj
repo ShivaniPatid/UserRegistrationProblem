@@ -45,8 +45,12 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UCEightPattern.cs" />
+    <Compile Include="UCFivePattern.cs" />
     <Compile Include="UCFourPattern.cs" />
     <Compile Include="UCOnePattern.cs" />
+    <Compile Include="UCSevenPattern.cs" />
+    <Compile Include="UCSixPattern.cs" />
     <Compile Include="UCThreePattern.cs" />
     <Compile Include="UCTwoPattern.cs" />
   </ItemGroup>
