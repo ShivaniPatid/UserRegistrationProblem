@@ -1,0 +1,20 @@
+﻿2022-09-21 18:07:04.5758 INFO abc@yahoo.com email is valid
+2022-09-21 18:08:18.4029 INFO abc-100@yahoo.com email is valid
+2022-09-21 18:09:00.5120 INFO abc.100@yahoo.com email is valid
+2022-09-21 18:09:26.4071 INFO abc111@abc.com email is valid
+2022-09-21 18:10:00.9774 INFO abc-100@abc.net email is valid
+2022-09-21 18:10:53.1596 INFO abc.100@abc.com.au email is valid
+2022-09-21 18:15:40.3454 INFO abc@gmail.com.com email is valid
+2022-09-21 18:24:01.5193 INFO abc+100@gmail.com email is valid
+
+2022-09-21 18:24:24.1360 INFO abc email is not valid
+2022-09-21 18:24:46.6739 INFO abc@.com.my email is not valid
+2022-09-21 18:25:15.6441 INFO abc123@gmail.a email is not valid
+2022-09-21 18:25:50.5974 INFO abc123@.com email is not valid
+2022-09-21 18:26:48.8847 INFO abc123@.com.com email is not valid
+2022-09-21 18:27:31.5714 INFO .abc@abc.com email is not valid
+2022-09-21 18:28:08.9270 INFO abc()*@gmail.com email is not valid
+2022-09-21 18:28:47.3982 INFO abc@%*.com email is not valid
+2022-09-21 18:32:01.4993 INFO abc@abc@gmail.com email is not valid
+2022-09-21 18:32:54.9563 INFO abc@gmail.com.1a email is not valid
+2022-09-21 18:33:24.3849 INFO abc@gmail.com.aa.au email is not valid
