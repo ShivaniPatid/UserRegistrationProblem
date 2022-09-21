@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Channels;
+using System.Runtime.Remoting.Services;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -57,7 +59,9 @@ namespace UserRegistrationUsingRegex
                     UCEightPattern.ValidatePassword(input4);
                     break;
                 case 9:
-                    UCNinePattern.ValidateEmail();
+                    Console.WriteLine("Enter email");
+                    string email=Console.ReadLine();
+                    UCNinePattern.ValidateEmail(email);
                     break;
                 default:
                     Console.WriteLine("Choose a appropriate option");
