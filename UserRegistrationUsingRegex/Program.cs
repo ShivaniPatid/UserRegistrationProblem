@@ -63,6 +63,7 @@ namespace UserRegistrationUsingRegex
                     string email=Console.ReadLine();
                     UCNinePattern.ValidateEmail(email);
                     break;
+                
                 default:
                     Console.WriteLine("Choose a appropriate option");
                     break;

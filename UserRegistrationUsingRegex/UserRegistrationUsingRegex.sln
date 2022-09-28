@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRegistrationUsingRegex", "UserRegistrationUsingRegex.csproj", "{F7280037-F674-430C-9FFF-3DF29B037320}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUserRegistration", "..\TestUserRegistration\TestUserRegistration.csproj", "{CD2D5655-67FD-4E41-BD87-071995C68D90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F7280037-F674-430C-9FFF-3DF29B037320}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7280037-F674-430C-9FFF-3DF29B037320}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7280037-F674-430C-9FFF-3DF29B037320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD2D5655-67FD-4E41-BD87-071995C68D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD2D5655-67FD-4E41-BD87-071995C68D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD2D5655-67FD-4E41-BD87-071995C68D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD2D5655-67FD-4E41-BD87-071995C68D90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
