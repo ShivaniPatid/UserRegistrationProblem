@@ -22,6 +22,7 @@ namespace UserRegistrationUsingRegex
             Console.WriteLine("7. UC7 - Validate password Rule3 - Password should have at least 1 numeric number");
             Console.WriteLine("8. UC8 - Validate password Rule4 - Password should have at least 1 special character");
             Console.WriteLine("9. UC9 - email samples provided separately");
+            Console.WriteLine("10. Validate User Entry Using Lambda Function");
             int option = Convert.ToInt32(Console.ReadLine());
 
             switch (option)
@@ -63,7 +64,19 @@ namespace UserRegistrationUsingRegex
                     string email=Console.ReadLine();
                     UCNinePattern.ValidateEmail(email);
                     break;
-                
+                case 10:
+                    UC13ValidateUserEntryUsingLambdaFunction obj = new UC13ValidateUserEntryUsingLambdaFunction();
+                    Console.Write("First name is ");
+                    obj.PrintResult(obj.ValidFirstName("Roanak"));
+                    Console.Write("Last name is ");
+                    obj.PrintResult(obj.ValidLastName("Sharma"));
+                    Console.Write("Email name is ");
+                    obj.PrintResult(obj.ValidEmail("abc.100@yahoo.com"));
+                    Console.Write("Mobile number name is ");
+                    obj.PrintResult(obj.ValidMobileNum("+91 6261455894"));
+                    Console.Write("Password name is ");
+                    obj.PrintResult(obj.ValidPassword("Roanak#17"));
+                    break;
                 default:
                     Console.WriteLine("Choose a appropriate option");
                     break;
